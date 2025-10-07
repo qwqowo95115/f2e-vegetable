@@ -1,0 +1,153 @@
+/*global style*/
+
+html {
+    background-color: #EDF2C5;
+    box-sizing:border-box;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color:#778A50;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+
+/*header style*/
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+.header h1{
+    font-size: 44px;
+}
+
+.header-right{
+    display:flex;
+    gap:12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right button{
+    background-color: #EDF2C5;
+    color:#778A50;
+    border:2px solid #778A50;
+    border-radius: 5px;
+    padding:5px 10px;
+    cursor:pointer;
+    padding-bottom: 8px;
+    font-weight: bolder;
+}
+
+.header-right-line{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.nav{
+    background-color: #778A50;
+    border-radius: 3px;
+    margin:0;
+}
+
+.nav-list{
+    display: flex;
+    margin:2;
+    padding: 0;
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.nav-link{
+    display: block;
+    color:#F7FBDA;
+    text-decoration: none;
+    padding:15px 25px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+/*body style*/
+.main-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content{
+    display: flex;
+    gap:60px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    align-items: stretch;
+}
+
+.left-content,
+.right-content{
+    flex:1;
+}
+
+.right-content-p{
+    font-size: 12px;
+    text-align: left;
+    background-color: #F7FBDA;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 10px;
+    margin:0;
+    line-height: 1.5;
+}
+
+.right-content-p .contact-info{
+    border-top: 1px solid #778A50;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.content h2{
+    margin-top:0 ;
+    background: #778A50;
+    color:#EDF2C5;
+    font-size: 16px;
+    padding:15px 25px;
+    border-radius: 3px;
+}
+
+.gallery{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.gallery-img{
+    flex:1;
+    max-width: 100%;
+    height: 156px;
+    object-fit: cover;
+    display: block;
+}
+
+/*footer style*/
+.footer{
+    background-color: #778A50;
+    color:#EDF2C5;
+    text-align: center;
+    padding: auto;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 12px;
+}
